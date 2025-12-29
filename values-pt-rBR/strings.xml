@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Info -->
+    <string name="app_name">Droidspaces</string>
+    <string name="app_version">v2.7.1-stable</string>
+
+    <!-- Welcome Screen -->
+    <string name="welcome_title">Bem-vindo ao Droidspaces</string>
+    <string name="welcome_subtitle">Gerenciador de containers Linux estilo LXC para Android!</string>
+    <string name="get_started">Começar</string>
+
+    <!-- Root Check Screen -->
+    <string name="root_check_title">Verificação de Acesso Root</string>
+    <string name="checking_root">Verificando acesso root…</string>
+    <string name="checking_root_access">Verificando acesso root...</string>
+    <string name="root_granted">Acesso Root Concedido</string>
+    <string name="root_denied">Acesso Root Negado</string>
+    <string name="root_required">O acesso root é necessário para este aplicativo</string>
+    <string name="root_required_message">O acesso root é necessário para gerenciar containers.</string>
+    <string name="check_root_access">Verificar Acesso Root</string>
+    <string name="check_root_access_click">Clique abaixo para verificar o acesso root</string>
+    <string name="root_available_message">Agora você pode usar o Droidspaces</string>
+    <string name="skip">Pular</string>
+    <string name="continue_button">Continuar</string>
+
+    <!-- Navigation -->
+    <string name="home_title">Início</string>
+    <string name="containers">Containers</string>
+    <string name="panel">Painel</string>
+    <string name="settings">Configurações</string>
+    <string name="back">Voltar</string>
+    <string name="close">Fechar</string>
+    <string name="refresh">Atualizar</string>
+    <string name="search">Pesquisar</string>
+    <string name="clear">Limpar</string>
+
+    <!-- Main Tab Screen -->
+    <string name="droidspaces_title">Droidspaces</string>
+    <string name="container_singular">Container</string>
+    <string name="container_plural">Containers</string>
+    <string name="running">Em execução</string>
+    <string name="container_count">%1$d container</string>
+    <string name="containers_count">%1$d containers</string>
+
+    <!-- Droidspaces Status Card -->
+    <string name="droidspaces_checking">Droidspaces: Verificando...</string>
+    <string name="droidspaces_working">Droidspaces: Funcionando</string>
+    <string name="droidspaces_update_available">Droidspaces: Atualização disponível</string>
+    <string name="droidspaces_not_installed">Droidspaces: Backend não instalado</string>
+    <string name="droidspaces_corrupted">Droidspaces: Backend corrompido</string>
+    <string name="droidspaces_unsupported">Droidspaces: Não suportado</string>
+    <string name="droidspaces_module_missing">Droidspaces: Backend ausente</string>
+    <string name="droidspaces_unknown">Droidspaces: Desconhecido</string>
+    <string name="root_unavailable">O acesso root não está disponível.</string>
+    <string name="grant_root_message">Conceda acesso root para continuar explorando o Droidspaces!</string>
+    <string name="version_label">Versão: %1$s</string>
+    <string name="root_provider_label">Provedor de Root: %1$s</string>
+    <string name="unknown">Desconhecido</string>
+    <string name="update_available_message">Atualização do backend disponível, clique aqui para atualizar</string>
+    <string name="tap_to_install">Toque aqui para instalar</string>
+    <string name="tap_to_reinstall">Toque aqui para reinstalar</string>
+    <string name="tap_to_install_module">Toque aqui para instalar o módulo</string>
+    <string name="device_not_supported">Seu dispositivo não é suportado</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Configurações</string>
+    <string name="backend_section">Backend</string>
+    <string name="reinstall_backend">Reinstalar Backend</string>
+    <string name="reinstall_backend_description">Reinstalar binários e módulo de boot</string>
+    <string name="requirements">Requisitos</string>
+    <string name="kernel_requirements">Requisitos do Kernel</string>
+    <string name="copy">Copiar</string>
+    <string name="appearance_section">Aparência</string>
+    <string name="follow_system_theme">Seguir tema do sistema</string>
+    <string name="follow_system_theme_description">Corresponder automaticamente ao tema do sistema</string>
+    <string name="dark_theme">Tema escuro</string>
+    <string name="dark_theme_description">Ativar tema escuro</string>
+    <string name="amoled_mode">Modo AMOLED</string>
+    <string name="amoled_mode_description">Fundo preto puro para telas OLED</string>
+    <string name="dynamic_color">Aplicar paleta de cores padrão do sistema</string>
+    <string name="dynamic_color_description">Usar tema Monet do Android 12+ (Material You)</string>
+    <string name="about_section">Sobre</string>
+    <string name="about_droidspaces">Sobre o Droidspaces</string>
+    <string name="about_description">Gerenciador de containers estilo LXC para Android</string>
+    <string name="developers">Desenvolvedor(es)</string>
+    <string name="developer_ravindu644">ravindu644</string>
+    <string name="developer_ravindu644_role">Backend, UI</string>
+    <string name="developer_thesithumsandaruwan">thesithumsandaruwan</string>
+    <string name="developer_thesithumsandaruwan_role">UI</string>
+    <string name="telegram_channel">Canal no Telegram</string>
+    <string name="github">GitHub</string>
+    <string name="ok">OK</string>
+
+    <!-- Containers Screen -->
+    <string name="no_containers_installed">Nenhum container instalado</string>
+    <string name="install_container_description">Instale um container usando o botão abaixo</string>
+    <string name="install_container">Instalar Container</string>
+    <string name="file_picker_error">Selecione um arquivo .tar.xz ou .tar.gz. Selecionado: %1$s</string>
+    <string name="file_picker_error_unknown">Selecione um arquivo .tar.xz ou .tar.gz. Não foi possível determinar o tipo do arquivo.</string>
+    <string name="stopping_container">Parando container...</string>
+    <string name="uninstalling_container">Desinstalando...</string>
+    <string name="failed_to_stop_container">Falha ao parar o container %1$s</string>
+    <string name="failed_to_uninstall_container">Falha ao desinstalar o container %1$s</string>
+    <string name="container_uninstalled_success">Container %1$s desinstalado com sucesso</string>
+    <string name="operation_failed">Operação falhou!</string>
+    <string name="operation_completed_success">Operação concluída com sucesso!</string>
+    <string name="failure_in_operation">Falha ao %1$sing o container %2$s</string>
+    <string name="uninstall_container_title">Desinstalar container?</string>
+    <string name="uninstall_container_message">Isso irá excluir permanentemente o container \"%1$s\" e todos os seus dados. Esta ação não pode ser desfeita.\n\nSe o container estiver em execução, ele será parado primeiro.</string>
+    <string name="uninstall">Desinstalar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="view_logs">Ver logs</string>
+    <string name="edit_container_configuration">Editar Configuração do Container</string>
+    <string name="uninstall_container_menu">Desinstalar Container</string>
+
+    <!-- Container Card -->
+    <string name="status_running">EM EXECUÇÃO</string>
+    <string name="status_restarting">REINICIANDO</string>
+    <string name="status_stopped">PARADO</string>
+    <string name="pid_label">PID: %1$d</string>
+    <string name="hostname_label">Hostname: %1$s</string>
+    <string name="options_label">Opções: %1$s</string>
+    <string name="start">Iniciar</string>
+    <string name="stop">Parar</string>
+    <string name="restart">Reiniciar</string>
+    <string name="ipv6_option">IPv6</string>
+    <string name="storage_option">Armazenamento</string>
+    <string name="hw_option">HW</string>
+    <string name="selinux_option">SELinux</string>
+    <string name="run_at_boot_option">Executar na inicialização</string>
+</resources>
