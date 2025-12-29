@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Info -->
+    <string name="app_name">Droidspaces</string>
+    <string name="app_version">v2.7.1-stable</string>
+
+    <!-- Welcome Screen -->
+    <string name="welcome_title">Добро пожаловать в Droidspaces</string>
+    <string name="welcome_subtitle">Менеджер Linux-контейнеров в стиле LXC для Android!</string>
+    <string name="get_started">Начать</string>
+
+    <!-- Root Check Screen -->
+    <string name="root_check_title">Проверка Root-доступа</string>
+    <string name="checking_root">Проверка root-доступа…</string>
+    <string name="checking_root_access">Проверка root-доступа...</string>
+    <string name="root_granted">Root-доступ предоставлен</string>
+    <string name="root_denied">Root-доступ отклонён</string>
+    <string name="root_required">Для этого приложения требуется root-доступ</string>
+    <string name="root_required_message">Root-доступ необходим для управления контейнерами.</string>
+    <string name="check_root_access">Проверить root-доступ</string>
+    <string name="check_root_access_click">Нажмите ниже, чтобы проверить root-доступ</string>
+    <string name="root_available_message">Теперь вы можете использовать Droidspaces</string>
+    <string name="skip">Пропустить</string>
+    <string name="continue_button">Продолжить</string>
+
+    <!-- Navigation -->
+    <string name="home_title">Главная</string>
+    <string name="containers">Контейнеры</string>
+    <string name="panel">Панель</string>
+    <string name="settings">Настройки</string>
+    <string name="back">Назад</string>
+    <string name="close">Закрыть</string>
+    <string name="refresh">Обновить</string>
+    <string name="search">Поиск</string>
+    <string name="clear">Очистить</string>
+
+    <!-- Main Tab Screen -->
+    <string name="droidspaces_title">Droidspaces</string>
+    <string name="container_singular">Контейнер</string>
+    <string name="container_plural">Контейнеры</string>
+    <string name="running">Запущено</string>
+    <string name="container_count">%1$d контейнер</string>
+    <string name="containers_count">%1$d контейнеров</string>
+
+    <!-- Droidspaces Status Card -->
+    <string name="droidspaces_checking">Droidspaces: Проверка...</string>
+    <string name="droidspaces_working">Droidspaces: Работает</string>
+    <string name="droidspaces_update_available">Droidspaces: Доступно обновление</string>
+    <string name="droidspaces_not_installed">Droidspaces: Бэкенд не установлен</string>
+    <string name="droidspaces_corrupted">Droidspaces: Бэкенд повреждён</string>
+    <string name="droidspaces_unsupported">Droidspaces: Не поддерживается</string>
+    <string name="droidspaces_module_missing">Droidspaces: Бэкенд отсутствует</string>
+    <string name="droidspaces_unknown">Droidspaces: Неизвестно</string>
+    <string name="root_unavailable">Root-доступ недоступен.</string>
+    <string name="grant_root_message">Предоставьте root-доступ для продолжения работы с Droidspaces!</string>
+    <string name="version_label">Версия: %1$s</string>
+    <string name="root_provider_label">Провайдер root: %1$s</string>
+    <string name="unknown">Неизвестно</string>
+    <string name="update_available_message">Доступно обновление бэкенда, нажмите здесь для обновления</string>
+    <string name="tap_to_install">Нажмите здесь для установки</string>
+    <string name="tap_to_reinstall">Нажмите здесь для переустановки</string>
+    <string name="tap_to_install_module">Нажмите здесь для установки модуля</string>
+    <string name="device_not_supported">Ваше устройство не поддерживается</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Настройки</string>
+    <string name="backend_section">Бэкенд</string>
+    <string name="reinstall_backend">Переустановить бэкенд</string>
+    <string name="reinstall_backend_description">Переустановить бинарные файлы и загрузочный модуль</string>
+    <string name="requirements">Требования</string>
+    <string name="kernel_requirements">Требования к ядру</string>
+    <string name="copy">Копировать</string>
+    <string name="appearance_section">Внешний вид</string>
+    <string name="follow_system_theme">Следовать системной теме</string>
+    <string name="follow_system_theme_description">Автоматически использовать системную тему</string>
+    <string name="dark_theme">Тёмная тема</string>
+    <string name="dark_theme_description">Включить тёмную тему</string>
+    <string name="amoled_mode">Режим AMOLED</string>
+    <string name="amoled_mode_description">Чисто чёрный фон для OLED-дисплеев</string>
+    <string name="dynamic_color">Использовать системную цветовую палитру</string>
+    <string name="dynamic_color_description">Использовать оформление Monet (Material You) Android 12+</string>
+    <string name="about_section">О приложении</string>
+    <string name="about_droidspaces">О Droidspaces</string>
+    <string name="about_description">Менеджер контейнеров в стиле LXC для Android</string>
+    <string name="developers">Разработчики</string>
+    <string name="telegram_channel">Telegram-канал</string>
+    <string name="github">GitHub</string>
+    <string name="ok">ОК</string>
+
+    <!-- Containers Screen -->
+    <string name="no_containers_installed">Контейнеры не установлены</string>
+    <string name="install_container_description">Установите контейнер с помощью кнопки ниже</string>
+    <string name="install_container">Установить контейнер</string>
+    <string name="file_picker_error">Пожалуйста, выберите файл .tar.xz или .tar.gz. Выбран: %1$s</string>
+    <string name="file_picker_error_unknown">Пожалуйста, выберите файл .tar.xz или .tar.gz. Не удалось определить тип файла.</string>
+    <string name="stopping_container">Остановка контейнера...</string>
+    <string name="uninstalling_container">Удаление...</string>
+    <string name="failed_to_stop_container">Не удалось остановить контейнер %1$s</string>
+    <string name="failed_to_uninstall_container">Не удалось удалить контейнер %1$s</string>
+    <string name="container_uninstalled_success">Контейнер %1$s успешно удалён</string>
+    <string name="operation_failed">Операция не удалась!</string>
+    <string name="operation_completed_success">Операция успешно завершена!</string>
+
+    <!-- Common -->
+    <string name="error_generic">Ошибка</string>
+</resources>
