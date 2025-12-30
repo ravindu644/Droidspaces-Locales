@@ -42,6 +42,7 @@ You need to know your language's ISO 639-1 code. Common examples:
 2. **Copy the English files** into your new directory:
    - Copy `values/strings.xml` → `values-{language_code}/strings.xml`
    - Copy `values/plurals.xml` → `values-{language_code}/plurals.xml` (if it exists)
+   - **Important:** After copying, remove `app_name` and `app_version` strings from your translated `strings.xml` file - these are unified to the main file and must not be included in translations!
 
 ### Step 3: Translate
 
@@ -58,7 +59,9 @@ Open your copied `strings.xml` file and translate all the text content. Keep eve
 <string name="get_started">Comenzar</string>
 ```
 
-**Note:** Keep "Droidspaces" untranslated in all languages - it's the project name and should remain as "Droidspaces" everywhere.
+**Important Notes:**
+- Keep "Droidspaces" untranslated in all languages - it's the project name and should remain as "Droidspaces" everywhere.
+- **Do NOT add `app_name` and `app_version` to your translated XML files** - These strings are unified to the main `values/strings.xml` file. You must completely remove them from your translated files - do not include them at all!
 
 ### Step 4: Submit Your Translation
 
@@ -104,9 +107,10 @@ Submit your translated files via:
 1. **Don't change string names** - The `name="..."` attribute must stay identical
 2. **Don't change placeholders** - Keep `%1$s`, `%1$d`, etc. exactly as they are
 3. **Don't translate "Droidspaces"** - Keep the project name "Droidspaces" as-is in all translations
-4. **Don't remove strings** - Translate all strings, even if some seem unused
-5. **Don't add new strings** - Only translate existing ones
-6. **Don't change XML structure** - Keep the same format and comments
+4. **Don't add `app_name` and `app_version` to your translated XML files** - These strings are unified to the main `values/strings.xml` file. You must completely remove them from your translated files - do not include them at all!
+5. **Don't remove strings** - Translate all strings, even if some seem unused (except `app_name` and `app_version` - these must be completely omitted from translated files)
+6. **Don't add new strings** - Only translate existing ones
+7. **Don't change XML structure** - Keep the same format and comments
 
 ## File Structure Example
 
