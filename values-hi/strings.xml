@@ -67,6 +67,9 @@
     <string name="kernel_requirements">कर्नेल आवश्यकताएँ</string>
     <string name="copy">कॉपी करें</string>
     <string name="appearance_section">दिखावट</string>
+    <string name="language">भाषा</string>
+    <string name="language_description">ऐप की भाषा बदलें</string>
+    <string name="system_default">सिस्टम डिफ़ॉल्ट</string>
     <string name="follow_system_theme">सिस्टम थीम का पालन करें</string>
     <string name="follow_system_theme_description">स्वतः सिस्टम थीम से मेल करें</string>
     <string name="dark_theme">डार्क थीम</string>
@@ -84,6 +87,7 @@
     <string name="developer_thesithumsandaruwan">thesithumsandaruwan</string>
     <string name="developer_thesithumsandaruwan_role">UI</string>
     <string name="telegram_channel">टेलीग्राम चैनल</string>
+    <string name="contributors">योगदानकर्ता</string>
     <string name="github">GitHub</string>
     <string name="ok">ठीक है</string>
 
