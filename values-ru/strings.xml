@@ -293,13 +293,13 @@
     <string name="gb_size">%1$d ГБ</string>
 
     <!-- Sparse Image Config Screen -->
-    <string name="sparse_image_configuration">Конфигурация разрежённого образа</string>
+    <string name="sparse_image_configuration">Конфигурация sparse images</string>
     <string name="storage_configuration">Конфигурация хранилища</string>
-    <string name="about_sparse_images">О разрежённых образах</string>
-    <string name="sparse_images_recommended">Разрежённые образы рекомендуются при использовании контейнеров на зашифрованном хранилище, разделах F2FS /data или других файловых системах, которые могут иметь проблемы совместимости с прямым монтированием директорий.</string>
-    <string name="sparse_images_description">Разрежённый образ создаёт выделенный файл образа файловой системы ext4, который монтируется как loop-устройство, обеспечивая лучшую изоляцию и совместимость.</string>
-    <string name="use_sparse_image">Использовать разрежённый образ</string>
-    <string name="use_sparse_image_description">Создать контейнер в файле разрежённого образа</string>
+    <string name="about_sparse_images">О sparse images</string>
+    <string name="sparse_images_recommended">Sparse images рекомендуются при использовании контейнеров на зашифрованном хранилище, разделах F2FS /data или других файловых системах, которые могут иметь проблемы совместимости с прямым монтированием директорий.</string>
+    <string name="sparse_images_description">Sparse image создаёт выделенный файл образа файловой системы ext4, который монтируется как loop-устройство, обеспечивая лучшую изоляцию и совместимость.</string>
+    <string name="use_sparse_image">Использовать sparse image</string>
+    <string name="use_sparse_image_description">Создать контейнер в файле sparse image</string>
     <string name="image_size">Размер образа</string>
     <string name="size_required">Размер обязателен</string>
     <string name="invalid_number">Неверное число</string>
@@ -317,7 +317,7 @@
 
     <!-- Validation Error Messages -->
     <string name="error_container_name_empty">Имя контейнера не может быть пустым</string>
-    <string name="error_container_name_invalid">Имя контейнера может содержать только буквы, цифры, дефисы (-), подчёркивания (_), точки (.) и пробелы</string>
+    <string name="error_container_name_invalid">Имя контейнера может содержать только латинские буквы, цифры, дефисы (-), подчёркивания (_), точки (.) и пробелы</string>
     <string name="error_hostname_invalid">Имя хоста может содержать только буквы, цифры и дефисы (-)</string>
 
     <!-- Process List -->
