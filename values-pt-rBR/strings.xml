@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- App Info -->
-    <string name="app_name">Droidspaces</string>
-    <string name="app_version">v2.7.1-stable</string>
-
     <!-- Welcome Screen -->
     <string name="welcome_title">Bem-vindo ao Droidspaces</string>
     <string name="welcome_subtitle">Gerenciador de containers Linux estilo LXC para Android!</string>

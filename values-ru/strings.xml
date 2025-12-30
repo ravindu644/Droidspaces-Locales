@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- App Info -->
-    <string name="app_name">Droidspaces</string>
-    <string name="app_version">v2.7.1-stable</string>
-
     <!-- Welcome Screen -->
     <string name="welcome_title">Добро пожаловать в Droidspaces</string>
     <string name="welcome_subtitle">Менеджер Linux-контейнеров в стиле LXC для Android!</string>
@@ -11,14 +7,14 @@
 
     <!-- Root Check Screen -->
     <string name="root_check_title">Проверка Root-доступа</string>
-    <string name="checking_root">Проверка root-доступа…</string>
-    <string name="checking_root_access">Проверка root-доступа...</string>
+    <string name="checking_root">Проверка Root-доступа…</string>
+    <string name="checking_root_access">Проверка Root-доступа…</string>
     <string name="root_granted">Root-доступ предоставлен</string>
     <string name="root_denied">Root-доступ отклонён</string>
-    <string name="root_required">Для этого приложения требуется root-доступ</string>
+    <string name="root_required">Для этого приложения требуется Root-доступ</string>
     <string name="root_required_message">Root-доступ необходим для управления контейнерами.</string>
-    <string name="check_root_access">Проверить root-доступ</string>
-    <string name="check_root_access_click">Нажмите ниже, чтобы проверить root-доступ</string>
+    <string name="check_root_access">Проверить Root-доступ</string>
+    <string name="check_root_access_click">Нажмите ниже, чтобы проверить Root-доступ</string>
     <string name="root_available_message">Теперь вы можете использовать Droidspaces</string>
     <string name="skip">Пропустить</string>
     <string name="continue_button">Продолжить</string>
@@ -54,7 +50,7 @@
     <string name="root_unavailable">Root-доступ недоступен.</string>
     <string name="grant_root_message">Предоставьте root-доступ для продолжения работы с Droidspaces!</string>
     <string name="version_label">Версия: %1$s</string>
-    <string name="root_provider_label">Провайдер root: %1$s</string>
+    <string name="root_provider_label">Провайдер Root: %1$s</string>
     <string name="unknown">Неизвестно</string>
     <string name="update_available_message">Доступно обновление бэкенда, нажмите здесь для обновления</string>
     <string name="tap_to_install">Нажмите здесь для установки</string>
