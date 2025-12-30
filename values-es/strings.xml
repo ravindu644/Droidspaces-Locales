@@ -80,6 +80,11 @@
     <string name="developer_thesithumsandaruwan">thesithumsandaruwan</string>
     <string name="developer_thesithumsandaruwan_role">IU</string>
     <string name="telegram_channel">Canal de Telegram</string>
+    <string name="contributors">Colaboradores</string>
+    <string name="contributor_matheusc457">matheusc457</string>
+    <string name="contributor_matheusc457_role">Traducciones al Portugués y Ruso</string>
+    <string name="contributor_daubfy">Daubfy</string>
+    <string name="contributor_daubfy_role">Traducciones al Español</string>
     <string name="github">GitHub</string>
     <string name="ok">OK</string>
 

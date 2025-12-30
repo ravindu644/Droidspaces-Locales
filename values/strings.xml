@@ -71,6 +71,9 @@
     <string name="kernel_requirements">Kernel Requirements</string>
     <string name="copy">Copy</string>
     <string name="appearance_section">Appearance</string>
+    <string name="language">Language</string>
+    <string name="language_description">Change app language</string>
+    <string name="system_default">System Default</string>
     <string name="follow_system_theme">Follow System Theme</string>
     <string name="follow_system_theme_description">Automatically match system theme</string>
     <string name="dark_theme">Dark Theme</string>
@@ -88,6 +91,11 @@
     <string name="developer_thesithumsandaruwan">thesithumsandaruwan</string>
     <string name="developer_thesithumsandaruwan_role">UI</string>
     <string name="telegram_channel">Telegram Channel</string>
+    <string name="contributors">Contributors</string>
+    <string name="contributor_matheusc457">matheusc457</string>
+    <string name="contributor_matheusc457_role">Portuguese &amp; Russian Translations</string>
+    <string name="contributor_daubfy">Daubfy</string>
+    <string name="contributor_daubfy_role">Spanish Translations</string>
     <string name="github">GitHub</string>
     <string name="ok">OK</string>
 
