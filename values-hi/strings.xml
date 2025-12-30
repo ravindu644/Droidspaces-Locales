@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Info -->
+    <string name="app_name">Droidspaces</string>
+    <string name="app_version">v2.7.1-stable</string>
+
+    <!-- Welcome Screen -->
+    <string name="welcome_title">Welcome to Droidspaces</string>
+    <string name="welcome_subtitle">LXC-style Linux container manager for Android !</string>
+    <string name="get_started">Get Started</string>
+
+    <!-- Root Check Screen -->
+    <string name="root_check_title">Root Access Check</string>
+    <string name="checking_root">Checking root access…</string>
+    <string name="checking_root_access">Checking root access...</string>
+    <string name="root_granted">Root Access Granted</string>
+    <string name="root_denied">Root Access Denied</string>
+    <string name="root_required">Root access is required for this app</string>
+    <string name="root_required_message">Root access is required to manage containers.</string>
+    <string name="check_root_access">Check Root Access</string>
+    <string name="check_root_access_click">Click below to check root access</string>
+    <string name="root_available_message">You can now use Droidspaces</string>
+    <string name="skip">Skip</string>
+    <string name="continue_button">Continue</string>
+
+    <!-- Navigation -->
+    <string name="home_title">Home</string>
+    <string name="containers">Containers</string>
+    <string name="panel">Panel</string>
+    <string name="settings">Settings</string>
+    <string name="back">Back</string>
+    <string name="close">Close</string>
+    <string name="refresh">Refresh</string>
+    <string name="search">Search</string>
+    <string name="clear">Clear</string>
+
+    <!-- Main Tab Screen -->
+    <string name="droidspaces_title">Droidspaces</string>
+    <string name="container_singular">Container</string>
+    <string name="container_plural">Containers</string>
+    <string name="running">Running</string>
+    <string name="container_count">%1$d container</string>
+    <string name="containers_count">%1$d containers</string>
+
+    <!-- Droidspaces Status Card -->
+    <string name="droidspaces_checking">Droidspaces: Checking...</string>
+    <string name="droidspaces_working">Droidspaces: Working</string>
+    <string name="droidspaces_update_available">Droidspaces: Update available</string>
+    <string name="droidspaces_not_installed">Droidspaces: Backend is not installed</string>
+    <string name="droidspaces_corrupted">Droidspaces: Backend corrupted</string>
+    <string name="droidspaces_unsupported">Droidspaces: Unsupported</string>
+    <string name="droidspaces_module_missing">Droidspaces: Backend missing</string>
+    <string name="droidspaces_unknown">Droidspaces: Unknown</string>
+    <string name="root_unavailable">Root access is unavailable.</string>
+    <string name="grant_root_message">Grant root access to continue exploring droidspaces !</string>
+    <string name="version_label">Version: %1$s</string>
+    <string name="root_provider_label">Root Provider: %1$s</string>
+    <string name="unknown">Unknown</string>
+    <string name="update_available_message">Backend update available, click here to update</string>
+    <string name="tap_to_install">Tap here to install</string>
+    <string name="tap_to_reinstall">Tap here to re-install</string>
+    <string name="tap_to_install_module">Tap here to install module</string>
+    <string name="device_not_supported">Your device is not supported</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Settings</string>
+    <string name="backend_section">Backend</string>
+    <string name="reinstall_backend">Reinstall Backend</string>
+    <string name="reinstall_backend_description">Reinstall binaries and boot module</string>
+    <string name="requirements">Requirements</string>
+    <string name="kernel_requirements">Kernel Requirements</string>
+    <string name="copy">Copy</string>
+    <string name="appearance_section">Appearance</string>
+    <string name="follow_system_theme">Follow System Theme</string>
+    <string name="follow_system_theme_description">Automatically match system theme</string>
+    <string name="dark_theme">Dark Theme</string>
+    <string name="dark_theme_description">Enable dark theme</string>
+    <string name="amoled_mode">AMOLED Mode</string>
+    <string name="amoled_mode_description">Pure black background for OLED displays</string>
+    <string name="dynamic_color">Apply System\'s Default Color Palette</string>
+    <string name="dynamic_color_description">Use Android 12+ Monet theming (Material You)</string>
+    <string name="about_section">About</string>
+    <string name="about_droidspaces">About Droidspaces</string>
+    <string name="about_description">LXC-Style container manager for Android</string>
+    <string name="developers">Developer(s)</string>
+    <string name="developer_ravindu644">ravindu644</string>
+    <string name="developer_ravindu644_role">Backend, UI</string>
+    <string name="developer_thesithumsandaruwan">thesithumsandaruwan</string>
+    <string name="developer_thesithumsandaruwan_role">UI</string>
+    <string name="telegram_channel">Telegram Channel</string>
+    <string name="github">GitHub</string>
+    <string name="ok">OK</string>
+
+    <!-- Containers Screen -->
+    <string name="no_containers_installed">No containers installed</string>
+    <string name="install_container_description">Install a container using the button below</string>
+    <string name="install_container">Install Container</string>
+    <string name="file_picker_error">Please select a .tar.xz or .tar.gz file. Selected: %1$s</string>
+    <string name="file_picker_error_unknown">Please select a .tar.xz or .tar.gz file. Could not determine file type.</string>
+    <string name="stopping_container">Stopping container...</string>
+    <string name="uninstalling_container">Uninstalling...</string>
+    <string name="failed_to_stop_container">Failed to stop container %1$s</string>
+    <string name="failed_to_uninstall_container">Failed to uninstall container %1$s</string>
+    <string name="container_uninstalled_success">Container %1$s uninstalled successfully</string>
+    <string name="operation_failed">Operation failed!</string>
+    <string name="operation_completed_success">Operation completed successfully!</string>
+    <string name="failure_in_operation">Failure in %1$sing container %2$s</string>
+    <string name="uninstall_container_title">Uninstall Container?</string>
+    <string name="uninstall_container_message">This will permanently delete container \"%1$s\" and all its data. This action cannot be undone.\n\nIf the container is running, it will be stopped first.</string>
+    <string name="uninstall">Uninstall</string>
+    <string name="cancel">Cancel</string>
+    <string name="view_logs">View logs</string>
+    <string name="edit_container_configuration">Edit Container Configuration</string>
+    <string name="uninstall_container_menu">Uninstall Container</string>
+
+    <!-- Container Card -->
+    <string name="status_running">RUNNING</string>
+    <string name="status_restarting">RESTARTING</string>
+    <string name="status_stopped">STOPPED</string>
+    <string name="pid_label">PID: %1$d</string>
+    <string name="hostname_label">Hostname: %1$s</string>
+    <string name="options_label">Options: %1$s</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="restart">Restart</string>
+    <string name="ipv6_option">IPv6</string>
+    <string name="storage_option">Storage</string>
+    <string name="hw_option">HW</string>
+    <string name="selinux_option">SELinux</string>
+    <string name="run_at_boot_option">Run at Boot</string>
+
+    <!-- Container Details Screen -->
+    <string name="container_info">Container Info</string>
+    <string name="distribution">Distribution</string>
+    <string name="version">Version</string>
+    <string name="hostname">Hostname</string>
+    <string name="ip_address">IP Address</string>
+    <string name="unable_to_read_container_info">Unable to read container information</string>
+    <string name="systemd">Systemd</string>
+    <string name="checking">Checking</string>
+    <string name="not_available">Not Available</string>
+    <string name="manage">Manage</string>
+
+    <!-- Edit Container Screen -->
+    <string name="edit_container_title">Edit Container: %1$s</string>
+    <string name="container_is_running">Container is running</string>
+    <string name="changes_take_effect_after_restart">Changes will take effect after restart</string>
+    <string name="hostname_label_edit">Hostname</string>
+    <string name="enable_ipv6">Enable IPv6</string>
+    <string name="enable_ipv6_description">Enable IPv6 networking</string>
+    <string name="android_storage">Android Storage</string>
+    <string name="android_storage_description">Mount Android storage</string>
+    <string name="hardware_access">Hardware Access</string>
+    <string name="hardware_access_description">Full hardware access</string>
+    <string name="selinux_permissive">SELinux Permissive</string>
+    <string name="selinux_permissive_description">Set SELinux permissive</string>
+    <string name="run_at_boot">Run at Boot</string>
+    <string name="run_at_boot_description">Start container on boot</string>
+    <string name="saved">Saved</string>
+    <string name="saving">Saving...</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="failed_to_update_config">Failed to update configuration</string>
+
+    <!-- Container Name Screen -->
+    <string name="container_setup">Container Setup</string>
+    <string name="container_information">Container Information</string>
+    <string name="container_name_label">Container Name *</string>
+    <string name="container_name_placeholder">my-container</string>
+    <string name="hostname_label_input">Hostname</string>
+    <string name="hostname_placeholder">Leave empty for default</string>
+    <string name="hostname_hint">If empty, will use container name as hostname</string>
+    <string name="container_name_exists">A container with this name already exists</string>
+    <string name="next_configuration">Next: Configuration</string>
+
+    <!-- Container Config Screen -->
+    <string name="configuration_title">Configuration</string>
+    <string name="container_options">Container Options</string>
+    <string name="next_storage">Next: Storage</string>
+
+    <!-- Installation Screen -->
+    <string name="installation_complete">Installation Complete</string>
+    <string name="installation_failed">Installation Failed</string>
+    <string name="installing_module">Installing Module</string>
+    <string name="installing_droidspaces">Installing Droidspaces</string>
+    <string name="module_installed_success">Magisk module installed successfully</string>
+    <string name="backend_installed_success">Droidspaces backend installed successfully</string>
+    <string name="unknown_error">Unknown error occurred</string>
+    <string name="module_installation_failed">Module installation failed</string>
+    <string name="binary_installation_failed">Binary installation failed</string>
+    <string name="removing_old_module">Removing old module...</string>
+    <string name="extracting_module_files">Extracting module files...</string>
+    <string name="installing_module_step">Installing module...</string>
+    <string name="setting_permissions">Setting permissions...</string>
+    <string name="verifying_installation">Verifying installation...</string>
+    <string name="preparing_module_installation">Preparing module installation...</string>
+    <string name="detected_architecture">Detected architecture: %1$s</string>
+    <string name="creating_directories">Creating directories...</string>
+    <string name="installing_binary">Installing binary: %1$s</string>
+    <string name="granting_permissions">Granting permissions...</string>
+    <string name="preparing_installation">Preparing installation...</string>
+
+    <!-- Control Panel Screen -->
+    <string name="active_containers">Active Containers</string>
+    <string name="no_containers_running">No containers running</string>
+    <string name="start_container_first">Start a container first to see it here</string>
+    <string name="system_statistics">System Statistics</string>
+    <string name="cpu">CPU</string>
+    <string name="ram">RAM</string>
+    <string name="uptime">Uptime</string>
+    <string name="temp">Temp</string>
+
+    <!-- Systemd Screen -->
+    <string name="systemd_services">Systemd Services</string>
+    <string name="fetching_services">Fetching services...</string>
+    <string name="systemd_not_available">Systemd Not Available</string>
+    <string name="systemd_not_available_message">This container does not have systemd installed or running</string>
+    <string name="search_services">Search services...</string>
+    <string name="running_legend">Running</string>
+    <string name="enabled_legend">Enabled</string>
+    <string name="disabled_legend">Disabled</string>
+    <string name="abnormal_legend">Abnormal</string>
+    <string name="masked_legend">Masked</string>
+    <string name="all_legend">All</string>
+    <string name="running_status">Running</string>
+    <string name="enabled_status">Enabled</string>
+    <string name="abnormal_status">Abnormal</string>
+    <string name="disabled_status">Disabled</string>
+    <string name="masked_status">Masked</string>
+    <string name="unmask">Unmask</string>
+    <string name="start_service">Start</string>
+    <string name="stop_service">Stop</string>
+    <string name="enable_service">Enable</string>
+    <string name="disable_service">Disable</string>
+    <string name="more_options">More options</string>
+    <string name="restart_service">Restart service</string>
+    <string name="mask_service">Mask service</string>
+    <string name="action_successful">%1$s %2$s successful</string>
+    <string name="failed_to_action">Failed to %1$s %2$s</string>
+    <string name="error_unknown">Error: %1$s</string>
+    <string name="actioning_service">%1$sing %2$s...</string>
+    <string name="no_services_found">No Services Found</string>
+    <string name="no_systemd_services">No systemd services available</string>
+    <string name="no_running_services">No running services</string>
+    <string name="no_enabled_services">No enabled services</string>
+    <string name="no_disabled_services">No disabled services</string>
+    <string name="no_abnormal_services">No abnormal services</string>
+    <string name="no_masked_services">No masked services</string>
+
+    <!-- System Info Card -->
+    <string name="kernel">Kernel</string>
+    <string name="selinux_status">SELinux Status</string>
+    <string name="android_version">Android Version</string>
+    <string name="architecture">Architecture</string>
+    <string name="supported_abis">Supported ABIs</string>
+    <string name="loading">Loading...</string>
+
+    <!-- Empty State -->
+    <string name="backend_not_available">Backend not available</string>
+    <string name="backend_not_available_description">Droidspaces backend is not installed or corrupted. Please install it first.</string>
+    <string name="root_access_not_available">Root access not available</string>
+    <string name="root_access_not_available_description">This page is disabled as root access is unavailable</string>
+
+    <!-- Dialog Utils -->
+    <string name="operation_failed_title">Operation Failed</string>
+    <string name="no_output_available">No output available</string>
+    <string name="dismiss">Dismiss</string>
+
+    <!-- Container Users Card -->
+    <string name="available_users">Available Users</string>
+    <string name="login_command_copied">Login command copied for user %1$s</string>
+    <string name="refresh_users">Refresh users</string>
+    <string name="no_local_users_found">No local users found</string>
+    <string name="select_user">Select User</string>
+    <string name="copy_login">Copy login</string>
+
+    <!-- Process List Screen -->
+    <string name="processes_title">Processes: %1$s</string>
+    <string name="no_processes_found">No processes found</string>
+    <string name="process_killed_success">Process %1$d killed</string>
+    <string name="failed_to_kill_process">Failed to kill process %1$d</string>
+    <string name="kill_process">Kill process</string>
+    <string name="cpu_percent">%1$s%% CPU</string>
+    <string name="mem_percent">%1$s%% MEM</string>
+
+    <!-- Common -->
+    <string name="saved_label">Saved</string>
+    <string name="error_generic">Error</string>
+    <string name="comma">,</string>
+    <string name="gb_size">%1$dGB</string>
+
+    <!-- Sparse Image Config Screen -->
+    <string name="sparse_image_configuration">Sparse Image Configuration</string>
+    <string name="storage_configuration">Storage Configuration</string>
+    <string name="about_sparse_images">About Sparse Images</string>
+    <string name="sparse_images_recommended">Sparse images are recommended when using containers on encrypted storage, F2FS /data partitions, or other filesystems that may have compatibility issues with direct directory mounting.</string>
+    <string name="sparse_images_description">A sparse image creates a dedicated ext4 filesystem image file that is mounted as a loop device, providing better isolation and compatibility.</string>
+    <string name="use_sparse_image">Use Sparse Image</string>
+    <string name="use_sparse_image_description">Create container in a sparse image file</string>
+    <string name="image_size">Image Size</string>
+    <string name="size_required">Size is required</string>
+    <string name="invalid_number">Invalid number</string>
+    <string name="minimum_size_4gb">Minimum size is 4 GB</string>
+    <string name="maximum_size_512gb">Maximum size is 512 GB</string>
+    <string name="size_gb">Size (GB)</string>
+    <string name="enter_size_between_4_512_gb">Enter size between 4 and 512 GB</string>
+    <string name="next_summary">Next: Summary</string>
+
+    <!-- Container Log Viewer -->
+    <string name="logs_title">Logs: %1$s</string>
+    <string name="clear_logs">Clear logs</string>
+    <string name="copy_logs">Copy logs</string>
+    <string name="container_logs">Container Logs</string>
+
+    <!-- Validation Error Messages -->
+    <string name="error_container_name_empty">Container name cannot be empty</string>
+    <string name="error_container_name_invalid">Container name can only contain letters, numbers, hyphens (-), underscores (_), dots (.), and spaces</string>
+    <string name="error_hostname_invalid">Hostname can only contain letters, numbers, and dashes (-)</string>
+
+    <!-- Process List -->
+    <string name="user_in_parentheses">(%1$s)</string>
+
+    <!-- Requirements -->
+    <string name="check_requirements">Check Requirements</string>
+    <string name="requirements_check_title">Requirements Check</string>
+    <string name="requirements_for_droidspaces">Requirements for Droidspaces</string>
+    <string name="requirements_check_completed_successfully">Requirements check completed successfully</string>
+    <string name="requirements_check_completed_with_errors">Requirements check completed with errors</string>
+    <string name="kernel_requirements_clipboard_label">Kernel Requirements</string>
+    <string name="kernel_requirements_copied">Kernel requirements copied to clipboard</string>
+</resources>
