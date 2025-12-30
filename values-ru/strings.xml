@@ -71,6 +71,9 @@
     <string name="kernel_requirements">Требования к ядру</string>
     <string name="copy">Копировать</string>
     <string name="appearance_section">Внешний вид</string>
+    <string name="language">Язык</string>
+    <string name="language_description">Изменить язык приложения</string>
+    <string name="system_default">По умолчанию</string>
     <string name="follow_system_theme">Следовать системной теме</string>
     <string name="follow_system_theme_description">Автоматически использовать системную тему</string>
     <string name="dark_theme">Тёмная тема</string>
@@ -83,6 +86,10 @@
     <string name="about_droidspaces">О Droidspaces</string>
     <string name="about_description">Менеджер контейнеров в стиле LXC для Android</string>
     <string name="developers">Разработчики</string>
+    <string name="developer_ravindu644">ravindu644</string>
+    <string name="developer_ravindu644_role">Backend, UI</string>
+    <string name="developer_thesithumsandaruwan">thesithumsandaruwan</string>
+    <string name="developer_thesithumsandaruwan_role">UI</string>
     <string name="telegram_channel">Telegram-канал</string>
     <string name="github">GitHub</string>
     <string name="ok">ОК</string>
@@ -100,7 +107,227 @@
     <string name="container_uninstalled_success">Контейнер %1$s успешно удалён</string>
     <string name="operation_failed">Операция не удалась!</string>
     <string name="operation_completed_success">Операция успешно завершена!</string>
+    <string name="failure_in_operation">Ошибка при %1$s контейнера %2$s</string>
+    <string name="uninstall_container_title">Удалить контейнер?</string>
+    <string name="uninstall_container_message">Это навсегда удалит контейнер \"%1$s\" и все его данные. Это действие нельзя отменить.\n\nЕсли контейнер запущен, он будет остановлен первым.</string>
+    <string name="uninstall">Удалить</string>
+    <string name="cancel">Отмена</string>
+    <string name="view_logs">Просмотр логов</string>
+    <string name="edit_container_configuration">Редактировать конфигурацию контейнера</string>
+    <string name="uninstall_container_menu">Удалить контейнер</string>
+
+    <!-- Container Card -->
+    <string name="status_running">ЗАПУЩЕН</string>
+    <string name="status_restarting">ПЕРЕЗАПУСК</string>
+    <string name="status_stopped">ОСТАНОВЛЕН</string>
+    <string name="pid_label">PID: %1$d</string>
+    <string name="hostname_label">Имя хоста: %1$s</string>
+    <string name="options_label">Опции: %1$s</string>
+    <string name="start">Запустить</string>
+    <string name="stop">Остановить</string>
+    <string name="restart">Перезапустить</string>
+    <string name="ipv6_option">IPv6</string>
+    <string name="storage_option">Хранилище</string>
+    <string name="hw_option">HW</string>
+    <string name="selinux_option">SELinux</string>
+    <string name="run_at_boot_option">Запуск при загрузке</string>
+
+    <!-- Container Details Screen -->
+    <string name="container_info">Информация о контейнере</string>
+    <string name="distribution">Дистрибутив</string>
+    <string name="version">Версия</string>
+    <string name="hostname">Имя хоста</string>
+    <string name="ip_address">IP-адрес</string>
+    <string name="unable_to_read_container_info">Не удалось прочитать информацию о контейнере</string>
+    <string name="systemd">Systemd</string>
+    <string name="checking">Проверка</string>
+    <string name="not_available">Недоступно</string>
+    <string name="manage">Управление</string>
+
+    <!-- Edit Container Screen -->
+    <string name="edit_container_title">Редактировать контейнер: %1$s</string>
+    <string name="container_is_running">Контейнер запущен</string>
+    <string name="changes_take_effect_after_restart">Изменения вступят в силу после перезапуска</string>
+    <string name="hostname_label_edit">Имя хоста</string>
+    <string name="enable_ipv6">Включить IPv6</string>
+    <string name="enable_ipv6_description">Включить сеть IPv6</string>
+    <string name="android_storage">Хранилище Android</string>
+    <string name="android_storage_description">Подключить хранилище Android</string>
+    <string name="hardware_access">Доступ к оборудованию</string>
+    <string name="hardware_access_description">Полный доступ к оборудованию</string>
+    <string name="selinux_permissive">SELinux в разрешительном режиме</string>
+    <string name="selinux_permissive_description">Установить SELinux в разрешительный режим</string>
+    <string name="run_at_boot">Запуск при загрузке</string>
+    <string name="run_at_boot_description">Запускать контейнер при загрузке устройства</string>
+    <string name="saved">Сохранено</string>
+    <string name="saving">Сохранение…</string>
+    <string name="save_changes">Сохранить изменения</string>
+    <string name="failed_to_update_config">Не удалось обновить конфигурацию</string>
+
+    <!-- Container Name Screen -->
+    <string name="container_setup">Настройка контейнера</string>
+    <string name="container_information">Информация о контейнере</string>
+    <string name="container_name_label">Имя контейнера *</string>
+    <string name="container_name_placeholder">мой-контейнер</string>
+    <string name="hostname_label_input">Имя хоста</string>
+    <string name="hostname_placeholder">Оставить пустым для значения по умолчанию</string>
+    <string name="hostname_hint">Если пусто, будет использовано имя контейнера как имя хоста</string>
+    <string name="container_name_exists">Контейнер с таким именем уже существует</string>
+    <string name="next_configuration">Далее: Конфигурация</string>
+
+    <!-- Container Config Screen -->
+    <string name="configuration_title">Конфигурация</string>
+    <string name="container_options">Опции контейнера</string>
+    <string name="next_storage">Далее: Хранилище</string>
+
+    <!-- Installation Screen -->
+    <string name="installation_complete">Установка завершена</string>
+    <string name="installation_failed">Установка не удалась</string>
+    <string name="installing_module">Установка модуля</string>
+    <string name="installing_droidspaces">Установка Droidspaces</string>
+    <string name="module_installed_success">Модуль Magisk успешно установлен</string>
+    <string name="backend_installed_success">Бэкенд Droidspaces успешно установлен</string>
+    <string name="unknown_error">Произошла неизвестная ошибка</string>
+    <string name="module_installation_failed">Не удалось установить модуль</string>
+    <string name="binary_installation_failed">Не удалось установить бинарные файлы</string>
+    <string name="removing_old_module">Удаление старого модуля...</string>
+    <string name="extracting_module_files">Извлечение файлов модуля...</string>
+    <string name="installing_module_step">Установка модуля...</string>
+    <string name="setting_permissions">Установка разрешений...</string>
+    <string name="verifying_installation">Проверка установки...</string>
+    <string name="preparing_module_installation">Подготовка установки модуля...</string>
+    <string name="detected_architecture">Обнаружена архитектура: %1$s</string>
+    <string name="creating_directories">Создание директорий...</string>
+    <string name="installing_binary">Установка бинарного файла: %1$s</string>
+    <string name="granting_permissions">Предоставление разрешений...</string>
+    <string name="preparing_installation">Подготовка установки...</string>
+
+    <!-- Control Panel Screen -->
+    <string name="active_containers">Активные контейнеры</string>
+    <string name="no_containers_running">Нет запущенных контейнеров</string>
+    <string name="start_container_first">Сначала запустите контейнер, чтобы увидеть его здесь</string>
+    <string name="system_statistics">Статистика системы</string>
+    <string name="cpu">CPU</string>
+    <string name="ram">RAM</string>
+    <string name="uptime">Время работы</string>
+    <string name="temp">Температура</string>
+
+    <!-- Systemd Screen -->
+    <string name="systemd_services">Службы Systemd</string>
+    <string name="fetching_services">Получение служб...</string>
+    <string name="systemd_not_available">Systemd недоступен</string>
+    <string name="systemd_not_available_message">В этом контейнере не установлен или не запущен systemd</string>
+    <string name="search_services">Поиск служб...</string>
+    <string name="running_legend">Запущено</string>
+    <string name="enabled_legend">Включено</string>
+    <string name="disabled_legend">Отключено</string>
+    <string name="abnormal_legend">Аномальное</string>
+    <string name="masked_legend">Замаскировано</string>
+    <string name="all_legend">Все</string>
+    <string name="running_status">Запущено</string>
+    <string name="enabled_status">Включено</string>
+    <string name="abnormal_status">Аномальное</string>
+    <string name="disabled_status">Отключено</string>
+    <string name="masked_status">Замаскировано</string>
+    <string name="unmask">Снять маску</string>
+    <string name="start_service">Запустить</string>
+    <string name="stop_service">Остановить</string>
+    <string name="enable_service">Включить</string>
+    <string name="disable_service">Отключить</string>
+    <string name="more_options">Дополнительные опции</string>
+    <string name="restart_service">Перезапустить службу</string>
+    <string name="mask_service">Замаскировать службу</string>
+    <string name="action_successful">%1$s %2$s выполнено успешно</string>
+    <string name="failed_to_action">Не удалось %1$s %2$s</string>
+    <string name="error_unknown">Ошибка: %1$s</string>
+    <string name="actioning_service">%1$s %2$s...</string>
+    <string name="no_services_found">Службы не найдены</string>
+    <string name="no_systemd_services">Нет доступных служб systemd</string>
+    <string name="no_running_services">Нет запущенных служб</string>
+    <string name="no_enabled_services">Нет включённых служб</string>
+    <string name="no_disabled_services">Нет отключённых служб</string>
+    <string name="no_abnormal_services">Нет служб с аномальным состоянием</string>
+    <string name="no_masked_services">Нет замаскированных служб</string>
+
+    <!-- System Info Card -->
+    <string name="kernel">Ядро</string>
+    <string name="selinux_status">Статус SELinux</string>
+    <string name="android_version">Версия Android</string>
+    <string name="architecture">Архитектура</string>
+    <string name="supported_abis">Поддерживаемые ABI</string>
+    <string name="loading">Загрузка…</string>
+
+    <!-- Empty State -->
+    <string name="backend_not_available">Бэкенд недоступен</string>
+    <string name="backend_not_available_description">Бэкенд Droidspaces не установлен или повреждён. Пожалуйста, установите его сначала.</string>
+    <string name="root_access_not_available">Root-доступ недоступен</string>
+    <string name="root_access_not_available_description">Эта страница отключена, так как root-доступ недоступен</string>
+
+    <!-- Dialog Utils -->
+    <string name="operation_failed_title">Операция не удалась</string>
+    <string name="no_output_available">Нет доступного вывода</string>
+    <string name="dismiss">Закрыть</string>
+
+    <!-- Container Users Card -->
+    <string name="available_users">Доступные пользователи</string>
+    <string name="login_command_copied">Команда входа скопирована для пользователя %1$s</string>
+    <string name="refresh_users">Обновить пользователей</string>
+    <string name="no_local_users_found">Локальные пользователи не найдены</string>
+    <string name="select_user">Выбрать пользователя</string>
+    <string name="copy_login">Копировать команду входа</string>
+
+    <!-- Process List Screen -->
+    <string name="processes_title">Процессы: %1$s</string>
+    <string name="no_processes_found">Процессы не найдены</string>
+    <string name="process_killed_success">Процесс %1$d завершён</string>
+    <string name="failed_to_kill_process">Не удалось завершить процесс %1$d</string>
+    <string name="kill_process">Завершить процесс</string>
+    <string name="cpu_percent">%1$s%% CPU</string>
+    <string name="mem_percent">%1$s%% Память</string>
 
     <!-- Common -->
+    <string name="saved_label">Сохранено</string>
     <string name="error_generic">Ошибка</string>
+    <string name="comma">,</string>
+    <string name="gb_size">%1$d ГБ</string>
+
+    <!-- Sparse Image Config Screen -->
+    <string name="sparse_image_configuration">Конфигурация разрежённого образа</string>
+    <string name="storage_configuration">Конфигурация хранилища</string>
+    <string name="about_sparse_images">О разрежённых образах</string>
+    <string name="sparse_images_recommended">Разрежённые образы рекомендуются при использовании контейнеров на зашифрованном хранилище, разделах F2FS /data или других файловых системах, которые могут иметь проблемы совместимости с прямым монтированием директорий.</string>
+    <string name="sparse_images_description">Разрежённый образ создаёт выделенный файл образа файловой системы ext4, который монтируется как loop-устройство, обеспечивая лучшую изоляцию и совместимость.</string>
+    <string name="use_sparse_image">Использовать разрежённый образ</string>
+    <string name="use_sparse_image_description">Создать контейнер в файле разрежённого образа</string>
+    <string name="image_size">Размер образа</string>
+    <string name="size_required">Размер обязателен</string>
+    <string name="invalid_number">Неверное число</string>
+    <string name="minimum_size_4gb">Минимальный размер 4 ГБ</string>
+    <string name="maximum_size_512gb">Максимальный размер 512 ГБ</string>
+    <string name="size_gb">Размер (ГБ)</string>
+    <string name="enter_size_between_4_512_gb">Введите размер от 4 до 512 ГБ</string>
+    <string name="next_summary">Далее: Сводка</string>
+
+    <!-- Container Log Viewer -->
+    <string name="logs_title">Логи: %1$s</string>
+    <string name="clear_logs">Очистить логи</string>
+    <string name="copy_logs">Копировать логи</string>
+    <string name="container_logs">Логи контейнера</string>
+
+    <!-- Validation Error Messages -->
+    <string name="error_container_name_empty">Имя контейнера не может быть пустым</string>
+    <string name="error_container_name_invalid">Имя контейнера может содержать только буквы, цифры, дефисы (-), подчёркивания (_), точки (.) и пробелы</string>
+    <string name="error_hostname_invalid">Имя хоста может содержать только буквы, цифры и дефисы (-)</string>
+
+    <!-- Process List -->
+    <string name="user_in_parentheses">(%1$s)</string>
+
+    <!-- Requirements -->
+    <string name="check_requirements">Проверить требования</string>
+    <string name="requirements_check_title">Проверка требований</string>
+    <string name="requirements_for_droidspaces">Требования для Droidspaces</string>
+    <string name="requirements_check_completed_successfully">Проверка требований успешно завершена</string>
+    <string name="requirements_check_completed_with_errors">Проверка требований завершена с ошибками</string>
+    <string name="kernel_requirements_clipboard_label">Требования к ядру</string>
+    <string name="kernel_requirements_copied">Требования к ядру скопированы в буфер обмена</string>
 </resources>
