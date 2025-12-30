@@ -82,10 +82,6 @@
     <string name="developer_thesithumsandaruwan_role">UI</string>
     <string name="telegram_channel">Telegram Channel</string>
     <string name="contributors">Dagiti Contributor</string>
-    <string name="contributor_matheusc457">matheusc457</string>
-    <string name="contributor_matheusc457_role">Dagiti Patarus iti Portuguese ken Russian</string>
-    <string name="contributor_daubfy">Daubfy</string>
-    <string name="contributor_daubfy_role">Dagiti Patarus iti Spanish</string>
     <string name="github">GitHub</string>
     <string name="ok">OK</string>
 
@@ -306,4 +302,3 @@
     <string name="kernel_requirements_clipboard_label">Dagiti Kasapulan ti Kernel</string>
     <string name="kernel_requirements_copied">Nakopia dagiti kasapulan ti kernel iti clipboard</string>
 </resources>
-
